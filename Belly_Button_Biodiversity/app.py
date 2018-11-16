@@ -101,6 +101,20 @@ def samples(sample):
         "otu_labels": sample_data.otu_label.tolist(),
     }
     return jsonify(data)
+@app.route("/wfreq/<sample>")
+def wfreq(sample):
+    selection = [
+    Samples_Metadata.WFREQ,
+    ]
+
+    wfreq_results = db.session.query(*selection).filter(Samples_Metadata.sample == sample).all()
+
+    sample_wfreq = {}
+
+    for result in wfreq_results:
+        sample_wfreq["WFREQ"] = result[0]
+
+    return jsonify(sample_wfreq)
 
 
 if __name__ == "__main__":
