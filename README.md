@@ -7,6 +7,6 @@ Python,Pandas, Flask, SQLalchemy, HTML, CSS, Bootstrap, JavaScript, Heroku.
 
 ## Visualization
 
-![Dashboard] (https://github.com/Lalitaeranki/Belly-Button-Bio-HW/blob/master/belly_button.png)
+![alt text] (https://github.com/Lalitaeranki/Belly-Button-Bio-HW/blob/master/belly_button.png)
 
 The link to the [Dashboard] (https://interactive-visualization-d3.herokuapp.com/)
