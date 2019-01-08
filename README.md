@@ -5,7 +5,8 @@ In this assignment is to build an interactive dashboard  to investigate the micr
 ## Skills
 Python,Pandas, Flask, SQLalchemy, HTML, CSS, Bootstrap, JavaScript, Heroku.
 
-Visualization:
-![Dashboard] belly_button.png
+## Visualization
+
+![Dashboard] (belly_button.png)
 
 The link to the [Dashboard] (https://interactive-visualization-d3.herokuapp.com/)
